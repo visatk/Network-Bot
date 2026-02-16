@@ -2,7 +2,7 @@
 
 A comprehensive, production-ready network diagnostic API powered by Cloudflare Workers featuring **18 professional-grade tools** for network analysis, security auditing, and troubleshooting.
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/YOUR_REPO)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/visatk/Network-Bot)
 
 ## 🌟 Features
 
