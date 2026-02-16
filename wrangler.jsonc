@@ -1,0 +1,32 @@
+{
+  "name": "advanced-network-tools",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-02-16",
+  "compatibility_flags": ["nodejs_compat"],
+  
+  // Enable observability
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "head_sampling_rate": 1
+    },
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 0.1
+    }
+  },
+
+  // KV for caching results
+  "kv_namespaces": [
+    {
+      "binding": "CACHE",
+      "id": "preview_id",
+      "preview_id": "preview_id"
+    }
+  ],
+
+  // Optional: Rate limiting
+  "limits": {
+    "cpu_ms": 50
+  }
+}
