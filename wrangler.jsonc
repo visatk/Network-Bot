@@ -1,5 +1,5 @@
 {
-  "name": "advanced-network-tools",
+  "name": "network-tools",
   "main": "src/index.ts",
   "compatibility_date": "2026-02-16",
   "compatibility_flags": ["nodejs_compat"],
@@ -20,8 +20,8 @@
   "kv_namespaces": [
     {
       "binding": "CACHE",
-      "id": "preview_id",
-      "preview_id": "preview_id"
+      "id": "5356828b6adc43389889fc37cd3e73df",
+      "preview_id": "5356828b6adc43389889fc37cd3e73df"
     }
   ],
 
